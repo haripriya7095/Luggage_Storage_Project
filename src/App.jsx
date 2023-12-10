@@ -1,91 +1,91 @@
-import {createBrowserRouter,RouterProvider,} from "react-router-dom"
+import { createBrowserRouter, RouterProvider, } from "react-router-dom"
 
-import { Home,About, StorageLuggage,Footer,LoginPage,LoginForm,Navbar,PaymentPage,ProductStorage,RegisterPage,RegisterForm,Luggage,Reviews,Delivery } from "../pages"
+import { Home, About, StorageLuggage, Footer, LoginPage, LoginForm, Navbar, PaymentPage, ProductStorage, RegisterPage, RegisterForm, Luggage, Reviews, Delivery } from "../pages"
 
-export default function App(){
+export default function App() {
 
-  const router=createBrowserRouter([
+  const router = createBrowserRouter([
     {
-      path:"/",
-      element:<Home/>
+      path: "/",
+      element: <Home />
     },
     {
-      path:"/about",
-      element:<About/>
-
-    },
-    {
-      path:"/delivery",
-      element:<Delivery/>
+      path: "/about",
+      element: <About />
 
     },
     {
-      path:"/footer",
-      element:<Footer/>
+      path: "/deliveryluggage",
+      element: <Delivery />
 
     },
     {
-      path:"/login",
-      element:<LoginPage/>
+      path: "/footer",
+      element: <Footer />
 
     },
     {
-      path:"/loginForm",
-      element:<LoginForm/>
+      path: "/login",
+      element: <LoginPage />
 
     },
     {
-      path:"/navbar",
-      element:<Navbar/>
+      path: "/loginForm",
+      element: <LoginForm />
 
     },
     {
-      path:"/paymentPage",
-      element:<PaymentPage/>
+      path: "/navbar",
+      element: <Navbar />
 
     },
     {
-      path:"/productStorage",
-      element:<ProductStorage/>
+      path: "/paymentPage",
+      element: <PaymentPage />
 
     },
     {
-      path:"/registerPage",
-      element:<RegisterPage/>
+      path: "/productStorage",
+      element: <ProductStorage />
 
     },
     {
-      path:"/registerform",
-      element:<RegisterForm/>
+      path: "/registerPage",
+      element: <RegisterPage />
 
     },
     {
-      path:"/reviews",
-      element:<Reviews/>
+      path: "/registerform",
+      element: <RegisterForm />
 
     },
     {
-      path:"/paymentpage",
-      element:<PaymentPage/>
+      path: "/reviews",
+      element: <Reviews />
 
     },
     {
-      path:"/storageLuggage",
-      element:<StorageLuggage/>
+      path: "/paymentpage",
+      element: <PaymentPage />
 
     },
     {
-      path:"/delivery",
-      element:<Delivery/>
+      path: "/storageLuggage",
+      element: <StorageLuggage />
 
     },
     {
-      path:"/Luggage",
-      element:<Luggage/>
+      path: "/delivery",
+      element: <Delivery />
+
+    },
+    {
+      path: "/Luggage",
+      element: <Luggage />
 
     },
   ])
-  return(
-<RouterProvider router={router}/>
+  return (
+    <RouterProvider router={router} />
   )
 }
