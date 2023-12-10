@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: rgb(232, 245, 245);
+}
+
+.button{
+    background-color: #ffa583;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
+.sectionStyle {
+    float: right;
+    padding: 20px  0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .callNumber {
+    color: #FF7E8B;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .mapContainer {
+    height: 15rem;
+    width: 100%;
+    
+  }
+
+  .address {
+    color: #1C1C1C;
+  }
+  .linkToStores {
+    color: #EF4F5F;
+  }
+  .address{
+    font-family: 'Poppins', sans-serif;
+  }
+  .box {
+    padding: 1rem;
+}
+.box {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(248, 248, 248);
+    box-sizing: border-box;
+    box-shadow: rgba(39, 37, 37, 0.12) 0px 3px 8px;
+    border-radius: 12px;
+    width: 80%;
+    padding: 1.5rem;
+}

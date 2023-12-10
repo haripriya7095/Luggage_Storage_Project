@@ -1,6 +1,6 @@
 import {createBrowserRouter,RouterProvider,} from "react-router-dom"
 
-import { Home,About, StorageLuggage,Footer,LoginPage,LoginForm,Navbar,PaymentPage,ProductStorage,RegisterPage,RegisterForm,Luggage,Reviews,Delivery } from "../pages"
+import { Home,About, StorageLuggage,Footer,LoginPage,LoginForm,Navbar,PaymentPage,ProductStorage,RegisterPage,Location,Luggage,Reviews,Delivery } from "../pages"
 
 export default function App(){
 
@@ -55,8 +55,8 @@ export default function App(){
 
     },
     {
-      path:"/registerform",
-      element:<RegisterForm/>
+      path:"/location",
+      element:<Location/>
 
     },
     {
