@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Caveat:wght@700&family=Poppins:wght@300&display=swap');
+
+
+.home-nav-outer{
+    padding: 4rem 0;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    width: 90vw;
+    margin:0 auto;
+    margin-bottom: 2rem;
+    
+}
+.home-nav-container{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    position: relative;
+    flex-direction: row;
+
+
+
+}
+.nav-one{
+    position: relative;
+}
+.nav-two{
+    position: relative;
+}
+
+
+
+.nav img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 0;
+
+    
+}
+.nav p{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-decoration: none;
+
+
+
+}
+
+.activeLink{
+    color:#f57749;
+    font-weight: 600;
+    
+}
+.notActive{
+    color:rgb(20, 20, 20);
+}
+.nav-divider{
+    width: 100%;
+    margin-top: 0;
+    height: 1px;
+    background-color: rgb(183, 178, 178);
+    display: block;
+}
+.divider-one{
+    position: absolute;
+    background-color: #dd3417;
+    width: 13rem;
+    height: 6px;
+    bottom: -1.3rem;
+    display: block;
+    left:0
+}
+.divider-two{
+    left: 20vw;
+    position: absolute;
+    background-color: #dd3417;
+    width: 13rem;
+    height: 6px;
+    bottom: -1.3rem;
+    display: block;
+}
+
+
+

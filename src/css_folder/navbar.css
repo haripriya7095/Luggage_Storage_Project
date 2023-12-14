@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Caveat:wght@700&family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: "Poppins",sans-serif;
+}
+.logo-icon{
+    width: 70px;
+    height: 70px;
+}
+.navbar-container{
+    width: 100%;
+
+}
+.navbar-center{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    gap:2rem;
+    align-items: center;
+    padding: 10px;
+
+}
+.input-container{
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    
+} 
+.gps-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.map-marker-svg{
+    color: rgb(247, 122, 122);
+    width: 25px;
+    height: 25px;
+}
+.caret-svg>*{
+    color: rgb(104, 102, 102);
+    width: 22px;
+    height: 22px;
+}
+.caret-svg{
+    animation:all  0.3s  ease-in-out;
+
+}
+.divider{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 2px;
+    height:1.3rem;
+    display: block;
+    background-color: rgb(188, 186, 186);
+}
+.search-svg{
+    width: 25px;
+    height: 25px;
+    color: rgb(152, 151, 151);
+}
+.search-city-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search-city{
+    width: 25vw;
+    border: 0;
+    outline:none;
+    background: none;
+}
+.avatar-icon{
+    margin: 0;
+    padding: 0;
+   
+}
+.avatar-icon img{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    border-radius: 50%;
+    padding: 0;
+}
+.store-list-btn{
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 1.1rem;
+    
+  
+}
+.store-list-btn:hover{
+    background-color: whitesmoke;
+}
+    @keyframes rotateAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(90deg);
+        }
+      }
+      @keyframes reverseRotateAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-90deg);
+        }
+      }
+.gps-container{
+    position: relative;
+
+}
+      
+      .caret-up {
+        animation: rotateAnimation 0.2s linear ; /* Adjust the duration and timing function as needed */
+      }
+      .caret-down{
+        animation: reverseRotateAnimation 0.2s linear;
+      }
+      .gps-btn{
+        display: flex;
+        gap: 12px;
+      }
+      .open-gps-container{
+        filter: grayscale(0);
+        box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+        padding: 1rem;
+        border-radius: 6px;
+        width: 25vw;
+        visibility: hidden;
+       
+          opacity: 10;
+          transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+          position: absolute;
+          top: 1.4rem;
+          z-index: 10;
+          cursor: pointer;
+          left: -14px;
+    background-color: white;
+
+        
+        /* animation: all 0.5s ease-in-out; */
+      
+      }
+      .open-gps-container:hover{
+        background-color:rgba(232, 231, 231, 0.2);
+
+      }
+      .gps-text{
+        margin-top: 10px;
+        color: rgb(145, 144, 144);
+        margin-left: 6px;
+      }
+      
+     
+      /* @keyframes show-gps-container {
+        0% {
+          transform: translateY(-100%);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      } */
+      
+     
+      .show-gps-container{
+       visibility: visible;        
+       opacity: 1;
+       top: 3.3rem;
+       transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+
+      }
+      /* .open-gps-container{
+        animation: slideFromTop 1s ease-out; /* Adjust the duration and timing function as needed */
+        
+      .city-list-container{
+      
+        /* overflow-x:scroll; */
+        position:absolute;
+        top: 3rem;
+        box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+        padding: 2rem 2rem;
+        border-radius: 6px;
+        visibility: hidden;
+        background-color: white;
+       
+          opacity: 20;
+          transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+          z-index: 10;
+          cursor: pointer;
+    
+        /* width: 30vw; */
+      }
+      .single-city-details:hover{
+        color:rgb(247, 122, 122) ;
+      }
+      .single-city-details img{
+        width: 60px;
+        height: 60px;
+      }
+      .show-city-container{
+        visibility: visible;        
+        opacity: 1;
+        transition: opacity 0.25s ease 0s, top 0.25s ease 0s;
+        top: 6rem;
+      }
+      .city-list{
+        display: flex;
+        gap: 15px;
+      }
+      .city-input{
+        box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+    padding:12px 1rem;
+    border-radius: 6px;
+      }
+      .slide-img{
+        width: 100vw;
+        height: 350px;
+        margin: 0 auto;
+        
+      }
+      .slide-img-container{
+        width: 100vw;
+      }
+      

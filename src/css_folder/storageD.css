@@ -1,0 +1,71 @@
+
+
+.storage-container {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    column-gap:3rem;
+	row-gap: 3rem;
+	width: 90vw;
+	margin: 5px auto;
+}
+
+.single-store{
+	width: 340px;
+	border-radius: 15px;
+	padding: 12px;
+	transition: transform 0.4s ease-in-out;
+}
+.single-store:hover{
+	box-shadow: 0 0 6px 3px rgba(0,0,0,0.2);
+
+}
+.main-store-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+	padding-bottom: 5px;
+
+}
+.main-store-info h2{
+	font-weight: 600;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+
+}
+.main-store-info p{
+	background-color: rgb(7, 95, 7);
+	color: white;
+	padding: 2px 7px ;
+	border-radius: 5px;
+
+}
+
+.single-store img {
+	width: 320px;
+	height: 200px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.single-store-detail{
+	margin-top: 5px;
+	font-size: 1.1rem;
+	color: rgb(45, 45, 45);
+	text-transform: capitalize;
+}
+.single-store-address{
+	margin-top: 0;
+	color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+

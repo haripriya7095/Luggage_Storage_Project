@@ -1,0 +1,81 @@
+
+.footer-container{
+    background-color: rgb(56, 56, 88);
+    color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5px; */
+    width: 100%;
+    font-weight: 400;
+}
+
+.company-details{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-page{
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: sans-serif !important;
+
+
+}
+.footer-page>*{
+    font-weight: 300;
+    font-family: sans-serif !important;
+}
+
+.footer-page p{
+    margin-bottom: 8px;
+}
+.footer-page p:hover {
+  color: rgb(110, 110, 139);
+  cursor: pointer;
+}
+
+.footer-page h3{
+    font-size: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+
+}
+.news-letter-container{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 1.5rem;
+    
+}
+.enter-for-newsletter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.social-links
+{
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.copywrite{
+    display: flex;
+    gap: 5px;
+    margin-top: 2rem;
+    color: white;
+    justify-content: center;
+}
+.news-letter-container{
+    background-color: white;
+    color: black;
+}
+
+
+

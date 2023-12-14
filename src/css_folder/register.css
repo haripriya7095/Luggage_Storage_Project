@@ -1,0 +1,116 @@
+
+.register-container{
+    display: flex;
+
+}
+.colored-container{
+    width: 40vw;
+    height: 100vh;
+    background:linear-gradient(rgb(235, 167, 138),rgb(237, 115, 62)) ;
+}
+.white-container{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    
+
+    justify-content: center;
+    /* background-image: url("https://www.shutterstock.com/image-vector/luggage-outline-icon-thin-line-260nw-1479323708.jpg") ; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+}
+.register-main-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.login-link{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+}
+.login-ques{
+    margin-bottom: 0;
+}
+.login-link{
+    text-transform: capitalize;
+    color: rgb(241, 127, 66);
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.register-page{
+    width: 55vw;
+    padding: 2rem;
+    justify-content: center;
+    padding-top: 1rem;
+
+    border-radius: 10px;
+    z-index: 10;
+
+}
+.register-detail-container{
+    width: 37vw;
+}
+.register-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+.first-name-div,.last-name-div,.email-container,.mobile-container,.password-container,.confirm-password-container{
+    border-radius: 5px;
+    border: 1px solid  rgb(185, 179, 179);
+    padding: 8px 16px;
+    
+
+}
+.register-name-container{
+    display: flex;
+   gap: 2rem;
+ 
+
+}
+.register-name-container>*{
+    width: 100%;
+}
+.register-btn{
+    background-color: rgb(233, 135, 82);
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 1rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.social-btns-register{
+    border: 0;
+    background-color: #fdf0eb;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #f65e27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    width: 100%;
+    padding: 2px ;
+
+  }
+  .social-btn-text-register{
+    margin-top: 1rem;
+  
+  }
+  .password-requirement{
+    font-size: 12px;
+    color: rgb(235, 109, 109);
+    margin-bottom: 0;
+  }

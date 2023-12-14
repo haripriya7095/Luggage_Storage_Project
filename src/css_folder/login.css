@@ -1,0 +1,170 @@
+/* Color code for peach : #ffa583
+Color code code for black: #252f3d */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Afacad&family=Caveat:wght@700&family=Poppins:wght@300&display=swap');
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+  }
+  .form-description{
+    display:flex;
+    justify-content:space-between;
+    padding:0;
+    margin:0
+
+
+  }
+  .login-layout-container{
+     display: flex;
+     position: relative;
+
+  }
+  .colored-layout{
+      background:linear-gradient(rgb(235, 167, 138),rgb(237, 115, 62)) ;
+    
+      width: 50%;
+      height: 100vh;
+
+  }
+  .colored-bg-img{
+    margin-top: 10rem;
+    width: 500px;
+    height: 400px;
+
+  }
+  .white-layout{
+    width:50%;
+    height:100vh;
+    position:relative
+
+    
+  }
+  .white-bg-img{
+    
+    width:500px;
+    height:600px;
+    position:absolute;
+    top:20%;
+    left:30%
+  }
+  .login-form-container{
+    z-index: 10;
+    position: absolute;
+    background-color: white;
+    width: 35%;
+    top: 10%;
+    left: 35%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    padding:1.5rem  2rem;
+  }
+
+  .greet-line{
+    color:#303d4f ;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+
+  }
+  .sign-in-line{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  .email-input-container,.password-input-container{
+  border: 1px solid rgb(151, 147, 147);
+  padding: 8px;
+  padding-left: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.3rem;
+  }
+  .password-input-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  input{
+    outline:none;
+    border: 0;
+    background: transparent;
+    font-family: "afacad";
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    width: 100%;
+    
+
+  }
+  .eye-svg{
+    color: gray;
+    width: 20px;
+    height: 18px;
+  }
+  .extra-pass-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: #f59775;
+    letter-spacing: 1px;
+    padding:0
+  }
+  .extra-pass-details>*{
+    margin:0
+  }
+  .login-submit-btn{
+    width: 100%;
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(237, 115, 62);
+    border: 0;
+    padding: 8px 1rem;
+    font-size: 1.1rem;
+    font-family: "Poppins",sans-serif;
+    margin-top:1rem;
+
+  }
+  .login-submit-btn:hover{
+    background-color: rgb(232, 91, 31);
+  }
+  .social-btns{
+    border: 0;
+    background-color: #fdf0eb;
+    margin-bottom: 10px;
+    padding-left: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #f65e27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+  }
+  .remember-me{
+    display:flex;
+    gap:10px;
+    align-items:center
+  }
+  .remember-me-input{
+    width:15px;
+    height:15px
+  }
+  .remember-me p{
+    margin-top: 1rem;
+  }
+  
+ 
+  
+  
