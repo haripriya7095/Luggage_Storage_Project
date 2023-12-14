@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.lcontainer {
+    width: 100%;
+    padding: 20px 96px;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.zoom-img {
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.zoom-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease;
+    filter: brightness(70%);
+}
+
+.zoom-img img:hover {
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+
+.images2 {
+    height: 804px;
+    overflow: hidden;
+}
+
+.images2 .zoom-img1 {
+    width: 400px;
+    height: 245px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.images2 .zoom-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: all .3s ease;
+}
+
+.images2 .zoom-img1 img:hover {
+    transform: scale(1.05);
+    filter: brightness(100%);
+}
+
+.reviews button {
+    background: rgb(5, 183, 5);
+}
+
+.tab-buttons {
+    border-bottom: 2px solid #ccc;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 87.5px;
+    height: 3px;
+    width: 120px;
+    background-color: dodgerblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.tab-buttons button {
+    margin: 10px 18px;
+    padding: 18px;
+}
+
+.tab-indicator {
+    position: absolute;
+    left: 8px;
+    height: 3px;
+    background-color: dodgerblue;
+    width: 100px;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+}
+
+.tab-buttons button.active h1 {
+    color: #ffa583;
+}
+
+.tab-content {
+    position: relative;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.tab-content-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.box {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(248, 248, 248);
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 12px;
+    width: 70%;
+    padding: 20px;
+}
+
+.map button {
+    background-color: #ffa583;
+    font-family: 'Poppins';
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.map button:hover {
+    transform: translateX(10px);
+}
+
+.first-para {
+    line-height: 28px;
+}
