@@ -8,7 +8,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Storage from './StorageD';
 import HomeNav from './HomeNav';
 import { Outlet } from 'react-router-dom';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

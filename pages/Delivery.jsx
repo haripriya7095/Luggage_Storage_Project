@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 //url to check the code
 // route=/delivery
 import { useState } from 'react';
@@ -271,5 +270,4 @@ export default function Delivery() {
     )
 
 }
-=======
->>>>>>> 4b1b050f9dad646d47e0fb3d98f34f3134310cba
+

@@ -6,7 +6,9 @@ import { CiSearch } from "react-icons/ci";
 import { FaLocationCrosshairs } from "react-icons/fa6";
 import cityData from "../src/city"
 import {FaMapMarkerAlt,FaCaretDown,FaCaretUp,FaSearch} from "react-icons/fa"
+import { Link } from "react-router-dom";
 export default function Navbar(){
+
 
     const[openGps,setOpenGps]=React.useState(false)
     const[search,setSearch]=React.useState(false)
@@ -32,7 +34,7 @@ export default function Navbar(){
     return(
         <div className="navbar-container">
             <div className="navbar-center">
-                <img src="../src/assets/logo.jpeg" alt="" className="logo-icon"/>
+                <img src="../src/assets/logo.png" alt="" className="logo-icon"/>
                 <div className="input-container">
                     <div className="gps-container">
                         <FaMapMarkerAlt className="map-marker-svg"/>
@@ -88,9 +90,11 @@ export default function Navbar(){
                    
                 </div>
                 <div style={{marginLeft:"20%",display:"flex",gap:"2rem"}}>
+                    <Link to="/login">
                 <div className="avatar-icon">
                         <img src="https://www.svgrepo.com/show/382100/female-avatar-girl-face-woman-user-7.svg" alt="avatar-icon" />
                     </div>
+                    </Link>
                     <button className="store-list-btn">Store list</button>
             </div>  
                 </div>

@@ -1,13 +1,33 @@
 import { createBrowserRouter, RouterProvider, } from "react-router-dom"
 
-import { Home, About, StorageLuggage, Footer, LoginPage, LoginForm, Navbar, PaymentPage, ProductStorage, RegisterPage, RegisterForm, Luggage, Reviews, Delivery } from "../pages"
+import { Home, About, StorageLuggage,Storage, Footer, LoginPage, LoginForm, Navbar, PaymentPage, ProductStorage, RegisterPage, RegisterForm, Luggage, Reviews, Delivery, Header } from "../pages"
 
 export default function App() {
 
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
+      element: <Header />,
+      children:[
+        {
+          path:"/",
+          element:<Home/>,
+          children:[
+            {
+              path:"/",
+              element:<Storage/>
+            },
+            {
+              path:"/delivery",
+              element:<Delivery/>
+            }
+          ]
+        },
+        {
+          path:"/singlestore/:id",
+          element:<StorageLuggage/>
+        }
+      ]
     },
     {
       path: "/about",
@@ -50,7 +70,7 @@ export default function App() {
 
     },
     {
-      path: "/registerPage",
+      path: "/register",
       element: <RegisterPage />
 
     },
@@ -74,11 +94,7 @@ export default function App() {
       element: <StorageLuggage />
 
     },
-    {
-      path: "/delivery",
-      element: <Delivery />
-
-    },
+  
     {
       path: "/Luggage",
       element: <Luggage />

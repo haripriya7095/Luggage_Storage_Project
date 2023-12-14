@@ -1,5 +1,5 @@
 import "../src/css_folder/login.css";
-import LuggageSvg from "../src/assets/suitcase.svg"
+// import LuggageSvg from "../src/assets/suitcase.svg"
 import {FaEye,FaGoogle,FaFacebook} from "react-icons/fa"
 import { Link } from "react-router-dom";
 //url to check the code
